@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PracticeScene.unity
     guid: f24172b4536e45b4c9f7de6631212b5a
+  - enabled: 1
+    path: Assets/Scenes/08_Transition_to_Quiz.unity
+    guid: 79d6217992993114d894648508dafda8
+  - enabled: 1
+    path: Assets/Scenes/09_Quiz.unity
+    guid: af3647668badce243b957ef287790344
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
