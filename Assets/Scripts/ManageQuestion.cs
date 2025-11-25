@@ -37,6 +37,13 @@ public class ManageQuestion:MonoBehaviour
         Toggle selectedToggle = myToggleGroup.ActiveToggles().FirstOrDefault();
         userResponse = selectedToggle.gameObject;
 
+        //Set all toggles as non interactable
+        for (int i = 0; i < myToggleGroup.transform.childCount; i++)
+
+        {
+            myToggleGroup.transform.GetChild(i).GetComponent<Toggle>().interactable = false;
+        }
+
         //Set All toggles as non interactable
         for (int i = 0; i < myToggleGroup.transform.childCount; i++)
         {
