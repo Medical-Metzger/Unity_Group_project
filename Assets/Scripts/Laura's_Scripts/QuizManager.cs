@@ -13,13 +13,12 @@ public class QuizManager : MonoBehaviour
 
     [SerializeField]
     private GameObject finalPanel;
+  
+    [SerializeField]
+    private GameObject scoreIndicator;
     
     public int score = 0;
    
-    [SerializeField]
-    private GameObject scoreIndicator;
-
-
     // Start is called before the first frame update
     void Start()
     {
