@@ -3,10 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadSceneOnObjClick : MonoBehaviour
 {
-    public GameObject prefab;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -16,7 +17,47 @@ public class LoadSceneOnObjClick : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // new ray
-        Debug.DrawRay(ray.origin, ray.direction *10f, Color.blue);
+        if (Input.GetMouseButtonDown(0))
+        {
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition); // new ray
+            Debug.DrawRay(ray.origin, ray.direction * 10f, Color.blue);
+
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            {
+                if (hit.collider.CompareTag("ClickableBt1"))
+                {
+                    Debug.Log("Clickable object clicked");
+                    SceneManager.LoadScene("Scene4PK");
+                }
+
+                if (hit.collider.CompareTag("ClickableBt2"))
+                {
+                    Debug.Log("Clickable object clicked");
+                    SceneManager.LoadScene("Scene05_DR");
+                }
+
+                if (hit.collider.CompareTag("ClickableBt3"))
+                {
+                    Debug.Log("Clickable object clicked");
+                    SceneManager.LoadScene("Scene6PK");
+                }
+
+                if (hit.collider.CompareTag("ClickableBt4"))
+                {
+                    Debug.Log("Clickable object clicked");
+                    SceneManager.LoadScene("Scene7PK");
+                }
+
+                if (hit.collider.CompareTag("ClickableDoor"))
+                {
+                    Debug.Log("Clickable object clicked");
+                    SceneManager.LoadScene("08_Transition_to_Quiz");
+                }
+            }
+        }    
     }
 }
+
+
