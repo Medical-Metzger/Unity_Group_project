@@ -580,7 +580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: B. Along the front of the neck
 --- !u!222 &54445063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -659,7 +659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: A. Thoracic occurs in the brain; abdominal occurs in the chest
 --- !u!222 &56788601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2315,7 +2315,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: A. In the brain
 --- !u!222 &313764435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2494,7 +2494,7 @@ GameObject:
   - component: {fileID: 360214352}
   - component: {fileID: 360214351}
   m_Layer: 5
-  m_Name: Question (1)
+  m_Name: Question_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2513,7 +2513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userResponse: {fileID: 0}
-  correctResponse: {fileID: 2028235691}
+  correctResponse: {fileID: 414940308}
   positiveFeedback: {fileID: 555182810}
   negativeFeedback: {fileID: 707179189}
   myToggleGroup: {fileID: 782699198}
@@ -2593,7 +2593,7 @@ GameObject:
   - component: {fileID: 361981157}
   - component: {fileID: 361981156}
   m_Layer: 5
-  m_Name: Question (4)
+  m_Name: Question_05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2767,7 +2767,7 @@ GameObject:
   - component: {fileID: 390067151}
   - component: {fileID: 390067150}
   m_Layer: 5
-  m_Name: Question (2)
+  m_Name: Question_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2982,7 +2982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Text of question blah blah blah blah blah blah blah blah blah?
+  m_text: What is an aneurysm?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3709,7 +3709,7 @@ GameObject:
   - component: {fileID: 472920774}
   - component: {fileID: 472920773}
   m_Layer: 5
-  m_Name: Label
+  m_Name: B answer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3767,7 +3767,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: B. A bulging or ballooning of a weakened blood vessel wall
 --- !u!222 &472920774
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3788,7 +3788,7 @@ GameObject:
   - component: {fileID: 478329379}
   - component: {fileID: 478329378}
   m_Layer: 5
-  m_Name: Label
+  m_Name: D answer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3846,7 +3846,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: D. A break in a bone
 --- !u!222 &478329379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3872,7 +3872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &487936819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3946,7 +3946,7 @@ GameObject:
   - component: {fileID: 490882671}
   - component: {fileID: 490882673}
   m_Layer: 5
-  m_Name: Question
+  m_Name: Question_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4028,7 +4028,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userResponse: {fileID: 0}
-  correctResponse: {fileID: 1015326105}
+  correctResponse: {fileID: 1461213535}
   positiveFeedback: {fileID: 1749441688}
   negativeFeedback: {fileID: 1685914007}
   myToggleGroup: {fileID: 2005538645}
@@ -4044,7 +4044,7 @@ GameObject:
   - component: {fileID: 498441638}
   - component: {fileID: 498441637}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: WelcomeToTheQuizTEXT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4066,8 +4066,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.8849, y: 139.11}
-  m_SizeDelta: {x: 1511.5332, y: 501.68}
+  m_AnchoredPosition: {x: 13.893, y: 194.97}
+  m_SizeDelta: {x: 1511.5, y: 389.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498441637
 MonoBehaviour:
@@ -4801,7 +4801,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: C. Both occur in the legs
 --- !u!222 &568191698
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4880,7 +4880,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: C. The main artery running from the heart through the chest
 --- !u!222 &574039349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4923,8 +4923,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -3.6184, y: -242.5483}
-  m_SizeDelta: {x: 200.8406, y: 37.4614}
+  m_AnchoredPosition: {x: -4.57, y: -242.2}
+  m_SizeDelta: {x: 208, y: 38.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &578653690
 MonoBehaviour:
@@ -4946,7 +4946,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Which type of aneurysm occurs inside the brain?
+  m_text: What is the difference between the 2 main types of aneurysm?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6980,7 +6980,7 @@ GameObject:
   - component: {fileID: 779560894}
   - component: {fileID: 779560893}
   m_Layer: 5
-  m_Name: Label
+  m_Name: C answer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7038,7 +7038,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: C. A type of blood clot
 --- !u!222 &779560894
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7683,7 +7683,7 @@ GameObject:
   - component: {fileID: 866572567}
   - component: {fileID: 866572566}
   m_Layer: 5
-  m_Name: Question (3)
+  m_Name: Question_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7702,7 +7702,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userResponse: {fileID: 0}
-  correctResponse: {fileID: 79117031}
+  correctResponse: {fileID: 620000882}
   positiveFeedback: {fileID: 1893246439}
   negativeFeedback: {fileID: 529258160}
   myToggleGroup: {fileID: 1342467432}
@@ -8125,7 +8125,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: B. Itchy skin
 --- !u!222 &970802284
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9934,7 +9934,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please choose your best response:'
+  m_text: Check the box beside the best answer.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10198,8 +10198,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -3.6184, y: -242.5483}
-  m_SizeDelta: {x: 200.8406, y: 37.4614}
+  m_AnchoredPosition: {x: -1.6355, y: -386}
+  m_SizeDelta: {x: 166.2919, y: 38.4669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1311873519
 MonoBehaviour:
@@ -10221,7 +10221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is an aneurysm?
+  m_text: Where is the aorta located in the body?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10463,7 +10463,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: B. Thoracic aneurysm
 --- !u!222 &1343970583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10756,7 +10756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: D. Inside the lungs
 --- !u!222 &1373291930
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10897,8 +10897,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is the difference between a thoracic aortic aneurysm and an abdominal
-    aortic aneurysm?
+  m_text: What is a common symptom that an aortic aneurysm  might be growing or about
+    to rupture?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11098,18 +11098,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dcfd4291fd5d3945a3bfd195c0e283e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxQuestionIndex: 5
+  maxQuestionIndex: 3
   myQuestionIndex: 0
   questionList:
   - {fileID: 490882669}
   - {fileID: 360214350}
   - {fileID: 390067149}
   - {fileID: 866572565}
-  - {fileID: 361981155}
-  - {fileID: 361981155}
-  - {fileID: 361981155}
-  - {fileID: 361981155}
-  - {fileID: 361981155}
   - {fileID: 361981155}
   finalPanel: {fileID: 1971797880}
   scoreIndicator: {fileID: 174768576}
@@ -11264,7 +11259,7 @@ GameObject:
   - component: {fileID: 1456182577}
   - component: {fileID: 1456182576}
   m_Layer: 5
-  m_Name: Text (TMP) (1)
+  m_Name: SmallerText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11318,8 +11313,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281611444
-  m_fontColor: {r: 0.7075472, g: 0.20358667, b: 0.20358667, a: 1}
+    rgba: 4286872378
+  m_fontColor: {r: 0.22761656, g: 0.48373842, b: 0.5188679, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -11713,7 +11708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please choose your best response:'
+  m_text: Check the box beside the best answer.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -11862,7 +11857,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: D. Numbness in the fingers
 --- !u!222 &1548727743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12309,7 +12304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please choose your best response:'
+  m_text: Check the box beside the best answer.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12458,7 +12453,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: D. There is no difference
 --- !u!222 &1622898234
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12896,7 +12891,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 839bb4d2d45f2af4d9228bbee43ad1f8, type: 3}
+  m_Texture: {fileID: 2800000, guid: b7fba76f0d1f91642862073568f8b594, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -13065,7 +13060,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Please choose your best response:'
+  m_text: Check the box beside the best answer.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -13723,7 +13718,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 4dcd130afde623b41b9a9d477faf0eeb, type: 3}
+  m_Texture: {fileID: 2800000, guid: bc36e913d65f465428033073867ae70b, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -13991,7 +13986,7 @@ GameObject:
   - component: {fileID: 1797953664}
   - component: {fileID: 1797953663}
   m_Layer: 5
-  m_Name: Label
+  m_Name: A answer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14049,7 +14044,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: ' A. A blockage in an artery'
 --- !u!222 &1797953664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15433,7 +15428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Where is the aorta located in the body?
+  m_text: Which type of aneurysm occurs inside the brain?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -15443,7 +15438,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4291570964
-  m_fontColor: {r: 0.07843137, g: 0.17677246, b: 0.8, a: 1}
+  m_fontColor: {r: 0.13519046, g: 0.13519046, b: 0.9245283, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -15809,7 +15804,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: A. Sharp or sudden pain in the back or front of the chest
 --- !u!222 &1977453183
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16247,7 +16242,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D
+  m_Text: D. Peripheral aneurysm
 --- !u!222 &2009020664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16424,7 +16419,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: C. Abdominal aneurysm
 --- !u!222 &2046729617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16579,7 +16574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A
+  m_Text: A. Cerebral aneurysm
 --- !u!222 &2075920719
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16735,7 +16730,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C
+  m_Text: C. Mild fever
 --- !u!222 &2118878895
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16814,7 +16809,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B
+  m_Text: B.  Type 1 occurs in the front of the chest, Type 2 occurs in the back
+    of the chest
 --- !u!222 &2128297314
 CanvasRenderer:
   m_ObjectHideFlags: 0
