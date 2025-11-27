@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - ClickableBt1
+  - ClickableBt2
+  - ClickableBt3
+  - ClickableBt4
+  - ClickableDoor
   layers:
   - Default
   - TransparentFX
@@ -11,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - canvas 1+2
-  - canvas 3
+  - 
+  - 
   - 
   - 
   - 
