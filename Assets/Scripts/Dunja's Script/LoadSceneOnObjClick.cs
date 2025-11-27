@@ -29,31 +29,31 @@ public class LoadSceneOnObjClick : MonoBehaviour
                 if (hit.collider.CompareTag("ClickableBt1"))
                 {
                     Debug.Log("Clickable object clicked");
-                    SceneManager.LoadScene("Scene4PK");
+                    SceneManager.LoadScene("04_IntroToAnneurysm_PK");
                 }
 
                 if (hit.collider.CompareTag("ClickableBt2"))
                 {
                     Debug.Log("Clickable object clicked");
-                    SceneManager.LoadScene("Scene05_DR");
+                    SceneManager.LoadScene("05_AortaTerminology_DR");
                 }
 
                 if (hit.collider.CompareTag("ClickableBt3"))
                 {
                     Debug.Log("Clickable object clicked");
-                    SceneManager.LoadScene("Scene6PK");
+                    SceneManager.LoadScene("06_TypesOfDissection_PK");
                 }
 
                 if (hit.collider.CompareTag("ClickableBt4"))
                 {
                     Debug.Log("Clickable object clicked");
-                    SceneManager.LoadScene("Scene7PK");
+                    SceneManager.LoadScene("07_Symptoms_PK");
                 }
 
                 if (hit.collider.CompareTag("ClickableDoor"))
                 {
                     Debug.Log("Clickable object clicked");
-                    SceneManager.LoadScene("08_Transition_to_Quiz");
+                    SceneManager.LoadScene("08_TransitionToQuiz_LH");
                 }
             }
         }    
