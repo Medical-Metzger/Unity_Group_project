@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class quizManager : MonoBehaviour
+public class QuizManager : MonoBehaviour
 {
     public int maxQuestionIndex = 5;
 
@@ -13,11 +13,12 @@ public class quizManager : MonoBehaviour
 
     [SerializeField]
     private GameObject finalPanel;
+    
+    public int score = 0;
    
     [SerializeField]
     private GameObject scoreIndicator;
-    
-    public int score = 0;
+
 
     // Start is called before the first frame update
     void Start()

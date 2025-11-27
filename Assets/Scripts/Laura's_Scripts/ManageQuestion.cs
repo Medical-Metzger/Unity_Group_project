@@ -49,7 +49,7 @@ public class ManageQuestion:MonoBehaviour
             //Show Positive Feedback
             positiveFeedback.SetActive(true);
 
-            //transform.parent.GetComponent<ManageQuiz>().score += 1;
+            transform.parent.GetComponent<QuizManager>().score += 1;
         }
         else
         {
