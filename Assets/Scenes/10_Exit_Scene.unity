@@ -1518,6 +1518,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021212303}
   m_CullTransparentMesh: 1
+--- !u!1 &1045950980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045950983}
+  - component: {fileID: 1045950982}
+  - component: {fileID: 1045950981}
+  m_Layer: 0
+  m_Name: SceneManager (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1045950981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045950980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1121b52241eba1747965c7d8baba58a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1045950982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045950980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd517817883148849b978203fb4ceaf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1045950983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045950980}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 964.1931, y: 676.96704, z: 31.096937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1123382371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2572,8 +2629,8 @@ MonoBehaviour:
 
     Laura Hudson, RN
 
-    As a Registered Nurse (RN) with over 20
-    years of experience in the healthcare industry, I possess a comprehensive understanding
+    As a Registered Nurse (RN) with over 20 years
+    of experience in the healthcare industry, I possess a comprehensive understanding
     of healthcare services, patient care, education, anatomy, and the holistic aspects
     of healing and wellness. I hold a Bachelor of Business Administration from Georgia
     State University, a Bachelor of Science in Nursing from Texas A&M University,
@@ -4287,3 +4344,4 @@ SceneRoots:
   - {fileID: 1123382372}
   - {fileID: 1911493101}
   - {fileID: 1479826546}
+  - {fileID: 1045950983}
