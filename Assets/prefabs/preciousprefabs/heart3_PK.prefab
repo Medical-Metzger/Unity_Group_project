@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 25828372451899409}
   - component: {fileID: 7261828520426086525}
   m_Layer: 7
-  m_Name: heart3
+  m_Name: heart3_PK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -466,7 +466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2161218578048829270}
   m_Layer: 8
-  m_Name: vein model
+  m_Name: vein model_PK
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
