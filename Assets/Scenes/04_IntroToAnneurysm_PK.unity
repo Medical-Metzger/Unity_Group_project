@@ -1821,7 +1821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObj1: {fileID: 335925267}
-  requiredClicks: 4
+  requiredClicks: 2
 --- !u!224 &270196946
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5207,7 +5207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &656052909
 AudioListener:
   m_ObjectHideFlags: 0
@@ -11511,13 +11511,14 @@ GameObject:
   - component: {fileID: 1590336572}
   - component: {fileID: 1590336571}
   - component: {fileID: 1590336569}
+  - component: {fileID: 1590336573}
   m_Layer: 0
   m_Name: Camera2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1590336569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11628,6 +11629,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1137783782}
   m_LocalEulerAnglesHint: {x: 0, y: -0.641, z: 0}
+--- !u!114 &1590336573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590336568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c49b4cc203aa6414fae5c798d1d0e7d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_MaxRayIntersections: 0
 --- !u!1 &1619111527
 GameObject:
   m_ObjectHideFlags: 0
@@ -18363,7 +18380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2969831620946190365, guid: e811e0bee517abd4796cf71057e079da, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3491388891094600368, guid: e811e0bee517abd4796cf71057e079da, type: 3}
       propertyPath: m_Layer
