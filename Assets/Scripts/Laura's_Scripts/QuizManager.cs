@@ -84,7 +84,7 @@ public class QuizManager : MonoBehaviour
 
             scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
 
-            //CheckScore();
+            CheckScore();
 
             //if statement to check the score int value and if this equals =>3 show the pass panel
             // if the int score is =<3 show the fail panel 
@@ -107,7 +107,13 @@ public class QuizManager : MonoBehaviour
 
     public IEnumerator LHCoroutine(float waitTime)
     {
-        for (int i = 0; i < 5; i++)
+       waitTime = 5.0f;
+            print("Waited for " + Time.time);
+            yield return new WaitForSeconds(waitTime);
+            OnClickNext();
+            StopCoroutine(nameof(myLHCoroutine));
+       
+        /*for (int i = 0; i < 5; i++)
         {
             waitTime = 5.0f;
             print("Waited for " + Time.time);
@@ -115,19 +121,19 @@ public class QuizManager : MonoBehaviour
             OnClickNext();
             StopCoroutine(nameof(myLHCoroutine));
             //yield return null;
-        }
+        }*/
     }
 
     public void CheckScore()
     {
         
-    if(score < 2)
+        if(score < 1)
         {
             Debug.Log("Score is" + score);
             retryPanel.SetActive(true);
         }
 
-        if(score > 3)
+        if(score > 1)
         {
             Debug.Log("Score is" + score);
             passPanel.SetActive(true);
