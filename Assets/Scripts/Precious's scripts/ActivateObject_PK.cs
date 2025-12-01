@@ -6,7 +6,12 @@ public class ActivateObject_PK : MonoBehaviour
     public GameObject targetObject;
     private bool isClicked = false; //declares the native clickstate to be off (not clicked initially)
 
-  
+    void Start()
+    {
+       targetObject.SetActive(false);
+    }
+
+
     void OnMouseDown() //only works on objects with colliders
     {
 
