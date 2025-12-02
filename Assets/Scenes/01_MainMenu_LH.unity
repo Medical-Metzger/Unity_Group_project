@@ -3780,6 +3780,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hospital_Front_Doors_Image
       objectReference: {fileID: 0}
+    - target: {fileID: 3892699905911282438, guid: 5e14acd74b8061049ab9ab7c57534ba4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4137377749390402789, guid: 5e14acd74b8061049ab9ab7c57534ba4, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
