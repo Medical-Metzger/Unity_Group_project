@@ -10,7 +10,7 @@ public class Animator_TriggerCaller_PK : MonoBehaviour
         mAnimator = GetComponent<Animator>();
     }
 
-    // Call this from a UI button
+    // use the gameobject this script is attached to and call Trigger start from the onclick () section 
     public void TriggerStart()
     {
         if (mAnimator != null)
