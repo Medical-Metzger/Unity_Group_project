@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Animator_TriggerCaller_PK : MonoBehaviour
 {
-    private Animator mAnimator;
+    public Animator mAnimator;
 
     void Start()
     {
@@ -15,6 +15,7 @@ public class Animator_TriggerCaller_PK : MonoBehaviour
     {
         if (mAnimator != null)
         {
+            Debug.LogWarning("TriggerStart method is not working");
             mAnimator.SetTrigger("TrStart");
         }
     }

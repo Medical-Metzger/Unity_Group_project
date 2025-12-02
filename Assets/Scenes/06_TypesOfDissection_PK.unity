@@ -4657,6 +4657,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1520849255}
+        m_TargetAssemblyTypeName: PlayAnimationOnClick_PK, Assembly-CSharp
+        m_MethodName: PlayAnimation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &920115089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7825,6 +7837,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c3acf3d92e69bd47bd8d8996a537b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mAnimator: {fileID: 0}
 --- !u!114 &1520849255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7838,7 +7851,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1520849250}
-  triggerName: Play
+  animatorOBJ: {fileID: 1520849248}
+  triggerName: TrStart
 --- !u!1 &1543999397
 GameObject:
   m_ObjectHideFlags: 0
