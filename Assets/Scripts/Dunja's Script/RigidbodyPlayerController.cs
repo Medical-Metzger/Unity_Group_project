@@ -6,69 +6,64 @@ public class RigidbodyPlayerController : MonoBehaviour
 {
     public Rigidbody rb;
     public GameObject camHolder;
-    public float moveSpeed;
+    public float speed;
     public float sensitivity; 
     public float maxForce;
-    private float moveX;
-    private float moveY;
-    private Vector3 moveDirection;
-    private float lookX;
-    private float lookY;
-    private float lookRotation; //keeping track of look rotation
+    private Vector2 move, look; //stores x and y components together as a 2D value, and its easier for functions like movement
+    private float lookRotation; //to keep track of current look rotation
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        Vector2 input = context.ReadValue<Vector2>();
-        moveX = input.x;
-        moveY = input.y;
+        move = context.ReadValue<Vector2>();
     }
 
     public void OnLook(InputAction.CallbackContext context)
     {
-        Vector2 input = context.ReadValue<Vector2>();
-        lookX = input.x;
-        lookY = input.y;
+        look = context.ReadValue<Vector2>();
     }
 
     private void FixedUpdate()
     {
-        Vector3 currentVelocity = rb.linearVelocity; //gets current velocity
+        Move();
+    }
 
-        Vector3 moveDirection = transform.right * moveX + transform.forward * moveY; //declares movement direction
+    void Move()
+    {
+        //Find target velocity
+        Vector3 currentVelocity = rb.linearVelocity; 
+        Vector3 targetVelocity = new Vector3(move.x, 0, move.y); //takes the input and turns it into a vector to help move the player
+        targetVelocity *= speed;
 
-        moveDirection = moveDirection.normalized; //gives movement direction
+        //Align direction so player always moves in correct direction
+        targetVelocity = transform.TransformDirection(targetVelocity);
 
-        Vector3 targetVelocity = moveDirection * moveSpeed; //gets target velocity
+        //Calculate forces
+        Vector3 velocityChange = (targetVelocity - currentVelocity);
+        velocityChange = new Vector3(velocityChange.x, 0, velocityChange.z);
 
-        targetVelocity.y = currentVelocity.y; //keeps gravity
+        //Limits force on player for safety
+        Vector3.ClampMagnitude(velocityChange, maxForce);
 
-        Vector3 velocityChange = targetVelocity - currentVelocity; //calculates how much velocity needs to be added
-
-        velocityChange = new Vector3(velocityChange.x, 0, velocityChange.z); //makes y axis zero so it falls back on ground instead of floating
-
-        Vector3.ClampMagnitude(velocityChange, maxForce); //limits force
-
-        rb.AddForce(velocityChange, ForceMode.VelocityChange); //adds force to rigidbody
-
-
+        //Add force to rigidbody
+        rb.AddForce(velocityChange, ForceMode.VelocityChange); //instant velocity change to player
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     
     void LateUpdate()
     {
         //Turn body horizontally
-        transform.Rotate(Vector3.up * lookX * sensitivity);
+        transform.Rotate(Vector3.up * look.x * sensitivity);
 
         //Look up and down
-        lookRotation -= lookY * sensitivity;
+        lookRotation += (-look.y * sensitivity); //flips mouse input because by default its inverted
         lookRotation = Mathf.Clamp(lookRotation, -90f, 90f); //makes it so that player is restricted how far up and down they can rotate and look when moving the mouse
-        camHolder.transform.eulerAngles = new Vector3(lookRotation,camHolder.transform.eulerAngles.y, camHolder.transform.eulerAngles.z);
+        camHolder.transform.eulerAngles = new Vector3(lookRotation, camHolder.transform.eulerAngles.y, camHolder.transform.eulerAngles.z);
     }
 
 }
