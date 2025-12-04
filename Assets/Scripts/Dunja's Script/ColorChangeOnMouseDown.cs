@@ -18,7 +18,6 @@ public class ColorChangeOnMouseDown : MonoBehaviour
         myInitialColor = myRenderer.material.color;
     }
     
-
     void OnMouseDown()
     {
         // changes the initial color of the object to red
