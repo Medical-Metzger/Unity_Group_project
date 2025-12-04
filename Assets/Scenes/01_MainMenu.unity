@@ -2254,7 +2254,11 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
+<<<<<<<< HEAD:Assets/Scenes/01_MainMenu_LH.unity
+          m_StringArgument: 03_CorridorScene_DR
+========
           m_StringArgument: 02_Transition_Instructions_Scene
+>>>>>>>> Laura:Assets/Scenes/01_MainMenu.unity
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &826511070
