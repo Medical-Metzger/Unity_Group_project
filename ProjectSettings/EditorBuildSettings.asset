@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/02_GameInstructions_LH.unity
     guid: f24172b4536e45b4c9f7de6631212b5a
   - enabled: 1
+    path: Assets/Scenes/03_CorridorScene_DR.unity
+    guid: cea2699a0e63cfb44bdfb8cf2756ae54
+  - enabled: 1
+    path: Assets/Scenes/04_IntroToAnneurysm_PK.unity
+    guid: 4acd5f33d68ea984588a835cafdd43e1
+  - enabled: 1
     path: Assets/Scenes/08_TransitionToQuiz_LH.unity
     guid: 79d6217992993114d894648508dafda8
   - enabled: 1
