@@ -252,7 +252,7 @@ GameObject:
   - component: {fileID: 1105232929}
   - component: {fileID: 1105232928}
   m_Layer: 5
-  m_Name: corridor_image
+  m_Name: Hospital_front_doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,8 +274,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 114.2529, y: 13.5393}
-  m_SizeDelta: {x: 60.6099, y: 61.2307}
+  m_AnchoredPosition: {x: 121.3408, y: 1.0351}
+  m_SizeDelta: {x: 57.8129, y: 63.4321}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1105232928
 MonoBehaviour:
@@ -481,10 +481,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1396827092}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0020141602, y: 0.0013427734}
-  m_SizeDelta: {x: 16037, y: 9021}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -233, y: -66.5}
+  m_SizeDelta: {x: 17957, y: 10101}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1391888333
 MonoBehaviour:
