@@ -286,8 +286,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.361}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -112.49158, y: -40.031525}
-  m_SizeDelta: {x: 264.6443, y: 591.1976}
+  m_AnchoredPosition: {x: -111.16553, y: -34.345703}
+  m_SizeDelta: {x: 261.9237, y: 602.6288}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &181030046
 MonoBehaviour:
@@ -336,7 +336,7 @@ GameObject:
   - component: {fileID: 190334287}
   - component: {fileID: 190334286}
   m_Layer: 0
-  m_Name: Help_Panel_Text (1)
+  m_Name: Help_Panel_Text_four_and_five
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,8 +358,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -366.5301, y: -204.26495}
-  m_SizeDelta: {x: 99.0492, y: 15.9862}
+  m_AnchoredPosition: {x: -384.08185, y: -164.07402}
+  m_SizeDelta: {x: 104.5142, y: 21.3265}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &190334286
 MonoBehaviour:
@@ -381,10 +381,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '4. Click the ''Next'' button to continue to the next question.
+  m_text: '4. Feedback will display the correct answer and if you chose correctly
+    or not.
 
 
-    5.
+    5. Click the ''Next'' button to continue to the next question.
+
+
+    6.
     Once the quiz ends, you will learn your score and have the option to return to
     the beginning of this educational course, or quit. '
   m_isRightToLeft: 0
@@ -703,7 +707,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335900557}
   m_LocalRotation: {x: 2.3283062e-10, y: 0.000000029802319, z: -0.0118755335, w: 0.99992955}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1.0381614, y: 1.2341846, z: 1.0936967}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -711,8 +715,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -1.361}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -305.04074, y: -60.234505}
-  m_SizeDelta: {x: 265.0511, y: 586.5243}
+  m_AnchoredPosition: {x: -304.1101, y: -56.3522}
+  m_SizeDelta: {x: 259.1915, y: 601.5385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &335900559
 MonoBehaviour:
@@ -783,8 +787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -368, y: 330.38773}
-  m_SizeDelta: {x: 122.2815, y: 11.9453}
+  m_AnchoredPosition: {x: -387.01373, y: 338.90784}
+  m_SizeDelta: {x: 131.1459, y: 10.574}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356968492
 MonoBehaviour:
@@ -2158,7 +2162,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081213038}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.000016689}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5.1699867, y: 10.377268, z: 0.85857}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2166,8 +2170,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -411, y: -381}
-  m_SizeDelta: {x: 136.61, y: 13.5821}
+  m_AnchoredPosition: {x: -384.18542, y: -354.35706}
+  m_SizeDelta: {x: 128.5004, y: 9.3473}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1081213040
 MonoBehaviour:
@@ -2254,7 +2258,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 16.286049, y: 0.09922886, z: 0, w: 2.2561312}
+  m_margin: {x: -0.07341766, y: 0.09922886, z: 0, w: -0.070715904}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2833,7 +2837,7 @@ GameObject:
   - component: {fileID: 1584250884}
   - component: {fileID: 1584250883}
   m_Layer: 0
-  m_Name: Help_Panel_Text
+  m_Name: Help_Panel_Text_1_through_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2847,7 +2851,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584250881}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 6.4231915, y: 10.377268, z: 0.85857}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2855,8 +2859,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: -10.6098}
-  m_SizeDelta: {x: 97.9687, y: 52.8291}
+  m_AnchoredPosition: {x: -382.80896, y: 108.18301}
+  m_SizeDelta: {x: 104.0234, y: 29.9344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1584250883
 MonoBehaviour:

@@ -107,7 +107,7 @@ public class QuizManager : MonoBehaviour
 
     public IEnumerator LHCoroutine(float waitTime)
     {
-       waitTime = 5.0f;
+       waitTime = 3.0f;
             print("Waited for " + Time.time);
             yield return new WaitForSeconds(waitTime);
             OnClickNext();
@@ -115,7 +115,7 @@ public class QuizManager : MonoBehaviour
        
         /*for (int i = 0; i < 5; i++)
         {
-            waitTime = 5.0f;
+            waitTime = 3.0f;
             print("Waited for " + Time.time);
             yield return new WaitForSeconds(waitTime);
             OnClickNext();

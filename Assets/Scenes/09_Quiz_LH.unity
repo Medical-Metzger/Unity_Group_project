@@ -659,7 +659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B. Along the front of the neck
+  m_Text: B. In the groin
 --- !u!222 &54445063
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -702,8 +702,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 535.00006, y: -3.4333}
-  m_SizeDelta: {x: 910.5177, y: 57.879}
+  m_AnchoredPosition: {x: 603.5817, y: -3.4334}
+  m_SizeDelta: {x: 1047.6812, y: 57.879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &56788600
 MonoBehaviour:
@@ -738,7 +738,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A. Thoracic occurs in the brain; abdominal occurs in the chest
+  m_Text: A. One occurs in the neck; the other occurs in the groin
 --- !u!222 &56788601
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1719,14 +1719,14 @@ RectTransform:
   m_GameObject: {fileID: 174768576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.42, y: 1.42, z: 1.42}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1971797881}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -637.39844, y: 163.39783}
+  m_AnchoredPosition: {x: -578, y: 68}
   m_SizeDelta: {x: 441.4872, y: 268.3804}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174768578
@@ -4882,7 +4882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &557515536
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5146,7 +5146,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C. The chest area inside the lungs
+  m_Text: C. In the chest area, near the heart
 --- !u!222 &574039349
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5818,8 +5818,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198.55334, y: 294.08093}
-  m_SizeDelta: {x: 860.2788, y: 364.5828}
+  m_AnchoredPosition: {x: -110.1114, y: 550.55}
+  m_SizeDelta: {x: 1915.209, y: 125.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &633337292
 MonoBehaviour:
@@ -5841,10 +5841,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'CONGRATULATIONS
-
-
-    YOU PASSED!!'
+  m_text: CONGRATULATIONS - YOU PASSED!!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5853,8 +5850,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294643209
+  m_fontColor: {r: 0.0353078, g: 0.054499425, b: 0.98490566, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5871,8 +5868,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 75
-  m_fontSizeBase: 75
+  m_fontSize: 70
+  m_fontSizeBase: 70
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5909,7 +5906,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 4.5318604, w: 0}
+  m_margin: {x: 0, y: -15.472839, z: 4.5318604, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -8199,7 +8196,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 880842188}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -8210,7 +8207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 110, y: -185}
+  m_AnchoredPosition: {x: 109.99994, y: -185}
   m_SizeDelta: {x: -291.7886, y: -316.6094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &880842190
@@ -9050,15 +9047,15 @@ RectTransform:
   m_GameObject: {fileID: 1025353580}
   m_LocalRotation: {x: -0, y: -0, z: 0.04492206, w: 0.99899054}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.92, y: 0.92, z: 0.92}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1971088404}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.149}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 368.03558, y: -72.3679}
-  m_SizeDelta: {x: 423.7307, y: 875.1344}
+  m_AnchoredPosition: {x: -558, y: -172}
+  m_SizeDelta: {x: 366.9882, y: 796.8866}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025353582
 MonoBehaviour:
@@ -11367,7 +11364,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: D. Inside the lungs
+  m_Text: D. In the sclera
 --- !u!222 &1373291930
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11485,8 +11482,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -539.40173, y: 155}
-  m_SizeDelta: {x: 401.8513, y: 665.6326}
+  m_AnchoredPosition: {x: -562.8446, y: 115.3743}
+  m_SizeDelta: {x: 443.5276, y: 845.7952}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379360883
 MonoBehaviour:
@@ -11580,7 +11577,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: What is a common symptom that an aortic aneurysm  might be growing or about
+  m_text: What is a common symptom that an aortic aneurysm might be growing or about
     to rupture?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12300,8 +12297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -395.99268, y: -71}
-  m_SizeDelta: {x: 874.5519, y: 600.4817}
+  m_AnchoredPosition: {x: -92.53766, y: 343.11462}
+  m_SizeDelta: {x: 1913.8535, y: 140.1266}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508840561
 MonoBehaviour:
@@ -12332,8 +12329,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294649108
+  m_fontColor: {r: 0.07990736, g: 0.14501591, b: 0.98490566, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12388,7 +12385,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0.010375977, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -16495,7 +16492,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971088403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -16506,7 +16503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96.61499, y: 46.02246}
+  m_AnchoredPosition: {x: 96.615005, y: 46.022522}
   m_SizeDelta: {x: -120.2301, y: -115.9551}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1971088405
@@ -17847,8 +17844,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 535.00006, y: -3.4333}
-  m_SizeDelta: {x: 910.5177, y: 57.879}
+  m_AnchoredPosition: {x: 765.1558, y: -3.4335}
+  m_SizeDelta: {x: 1370.8289, y: 57.879}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2128297313
 MonoBehaviour:
@@ -17883,7 +17880,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B.  Type 1-front of the chest, Type 2- back of the chest
+  m_Text: B.  One occurs in the front of the chest; the other occurs in back of the
+    chest
 --- !u!222 &2128297314
 CanvasRenderer:
   m_ObjectHideFlags: 0
