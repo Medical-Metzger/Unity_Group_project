@@ -390,7 +390,7 @@ GameObject:
   - component: {fileID: 109437760}
   - component: {fileID: 109437759}
   m_Layer: 0
-  m_Name: Team_Leads_Button
+  m_Name: Team_Lead_Bios_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'EXIT GAME
+  m_text: 'QUIT GAME
 
 '
   m_isRightToLeft: 0
