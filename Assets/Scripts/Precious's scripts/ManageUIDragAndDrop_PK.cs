@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEditor.PlayerSettings;
+using static UnityEngine.GraphicsBuffer;
 
 public class ManageUIDragAndDrop_PK : MonoBehaviour
 {
@@ -10,13 +12,18 @@ public class ManageUIDragAndDrop_PK : MonoBehaviour
     private Vector3 initPosition;
 
     [SerializeField]
-    private GameObject targetObj;
-    private GameObject currentObj;
+    public GameObject targetObj;
+    public GameObject currentObj;
+    Collider2D myCol;
+    Collider2D targetCol; //referencing the colliders we are going to be using
 
     // Start is called before the first frame update
     void Start()
     {
         initPosition = transform.position;
+        //getting the collider of currentobj
+        myCol = GetComponent<Collider2D>();
+        targetCol = targetObj.GetComponent<Collider2D>();
     }
 
     // Update is called once per frame
@@ -38,7 +45,7 @@ public class ManageUIDragAndDrop_PK : MonoBehaviour
 
     public void OnDropObj()
     {
-        if (currentObj == targetObj)
+        if (myCol.IsTouching(targetCol)) //(currentObj == targetObj) wasnt working
         {
             transform.position = currentObj.transform.position;
         }
@@ -46,6 +53,7 @@ public class ManageUIDragAndDrop_PK : MonoBehaviour
         {
             transform.position = initPosition;
         }
+
     }
 
     void OnTriggerEnter2D(Collider2D collider)
@@ -58,6 +66,12 @@ public class ManageUIDragAndDrop_PK : MonoBehaviour
     {
         currentObj = null;
         //Debug.Log("Exit " + collider.name);
+    }
+    public void SnapToTarget()
+    {
+       
+        
+        currentObj.transform.position = targetObj.transform.position;// added this line myself because i was struggling to have the words move
     }
 
 }
