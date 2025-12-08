@@ -10,6 +10,11 @@ TagManager:
   - ClickableBt4
   - ClickableDoor
   - Heart
+  - Capsule
+  - sphere
+  - camera
+  - heartttt
+  - canvassss
   layers:
   - Default
   - TransparentFX
