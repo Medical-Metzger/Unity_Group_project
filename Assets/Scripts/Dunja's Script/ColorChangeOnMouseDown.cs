@@ -20,7 +20,7 @@ public class ColorChangeOnMouseDown : MonoBehaviour
         //CheckPlayerPrefs and change material accordingly
         if (PlayerManager.Instance.CheckPlayerPrefs(gameObject) == 1)
         {
-            Debug.Log("Change material of " + gameObject.name);
+            //Debug.Log("Change material of " + gameObject.name);
             myRenderer.material.color = Color.red;
         }
         

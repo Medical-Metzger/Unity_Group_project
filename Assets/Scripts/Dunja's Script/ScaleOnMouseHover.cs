@@ -2,23 +2,27 @@ using UnityEngine;
 
 public class ScaleOnMouseHover : MonoBehaviour
 {
-    private Vector3 originalScale;
-    public Vector3 hoverScale = new Vector3(5f, 5f, 5f);
+    // referencing new vectors for initialScale and hoverScale. I used the Vector3 instead of Vector2 because I want it to scale in all 3 x,y,z axis
+    private Vector3 initialScale;
+    private Vector3 hoverScale;
 
     void Start()
     {
-        originalScale = transform.localScale;
+        // the object starts with the initial scale (local scale)
+        initialScale = transform.localScale;
+        // the new scale when mouse is hovering is the initial scale times 1.1f on all axis
+        hoverScale = initialScale * 1.1f;
     }
 
-    void OnMouseOver()
+    // if mouse hovers over object the new local scale is the increased one
+    private void OnMouseOver()
     {
-        Debug.Log("Hovering");
         transform.localScale = hoverScale;
     }
 
-    void OnMouseExit()
+    // if mouse doesn't hover anymore, the localscale returns to its initial scale
+    private void OnMouseExit()
     {
-        Debug.Log("Exit");
-        transform.localScale = originalScale;
+        transform.localScale = initialScale;
     }
 }

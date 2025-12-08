@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/00_GameManagerInitScene_DR.unity
     guid: 4cd6903b203ef804dbaa4e8bb27694f5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/03_CorridorScene_DR.unity
     guid: cea2699a0e63cfb44bdfb8cf2756ae54
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/05_AortaTerminology_DR.unity
     guid: c78fcf51da2602d4fb3ee2d299461df6
   - enabled: 0

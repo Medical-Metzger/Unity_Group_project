@@ -35,7 +35,7 @@ public class PlayerManager : MonoBehaviour
             {
                 DontDestroyOnLoad(buttonList[i]);
                 PlayerPrefs.SetInt("button" + i, 0);
-                Debug.Log(buttonList[i].name + " index of "+ buttonList.IndexOf(buttonList[i]) +  " state is " + PlayerPrefs.GetInt("button" + i));
+                //Debug.Log(buttonList[i].name + " index of "+ buttonList.IndexOf(buttonList[i]) +  " state is " + PlayerPrefs.GetInt("button" + i));
             }
         }
         else
@@ -54,16 +54,16 @@ public class PlayerManager : MonoBehaviour
 
         //Change PlayerPrefs
         int state = PlayerPrefs.GetInt("button" + index);
-        Debug.Log("Get " + obj.name +" of index " + index + " has state  " + state);
+        //Debug.Log("Get " + obj.name +" of index " + index + " has state  " + state);
         return state;
     }
 
     public void ChangePlayerPrefs (GameObject obj)
     {
-        Debug.Log("Count " + buttonList.Count);
+        //Debug.Log("Count " + buttonList.Count);
         //Get from List
         int index = buttonList.IndexOf(obj);
-        Debug.Log("Set " + obj.name + " of Index " + index + " to 1");
+        //Debug.Log("Set " + obj.name + " of Index " + index + " to 1");
 
         //Change PlayerPrefs
         PlayerPrefs.SetInt("button" + index, 1);
