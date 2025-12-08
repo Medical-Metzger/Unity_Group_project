@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class QuizManager : MonoBehaviour
@@ -28,6 +29,17 @@ public class QuizManager : MonoBehaviour
     
     public int score = 0; 
     
+
+    
+    [Header("Score Percentage")]
+    public int correctAnswersNb;
+    public int totalQuestionsNb;
+    public TextMeshProUGUI percentageText; // assign in Inspector
+
+
+    float percent = 0.0f;
+
+
     /*
     5 Question Max 
     Express as fraction out of 5 
@@ -46,12 +58,14 @@ public class QuizManager : MonoBehaviour
         /*print("Starting " + Time.time);
         myLHCoroutine = LHCoroutine(2.0f);
         StartCoroutine(myLHCoroutine);*/
+        totalQuestionsNb = transform.GetComponent<QuizManager>().maxQuestionIndex;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+           //CheckScore();
+           //UpdateScoreBtn();
     }
 
     public void OnClickNext()
@@ -83,6 +97,7 @@ public class QuizManager : MonoBehaviour
             finalPanel.SetActive(true);
 
             scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
+
 
             CheckScore();
 
@@ -129,14 +144,27 @@ public class QuizManager : MonoBehaviour
         
         if(score < 1)
         {
-            Debug.Log("Score is" + score);
+            Debug.Log("Score is " + score);
             retryPanel.SetActive(true);
         }
 
         if(score > 1)
         {
-            Debug.Log("Score is" + score);
+            Debug.Log("Score is " + score);
             passPanel.SetActive(true);
         }
+    }
+
+     public void UpdateScoreBtn()
+    {
+            // Display as whole number (e.g., 85%)
+            //percentageText.text;
+        correctAnswersNb = transform.GetComponent<QuizManager>().score;
+
+        if (totalQuestionsNb > 0)
+        percent = correctAnswersNb / totalQuestionsNb * 100.0f;
+
+        percent = Mathf.Clamp(percent, 0.0f, 100.0f);
+
     }
 }
