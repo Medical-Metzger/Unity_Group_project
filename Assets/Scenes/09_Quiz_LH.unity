@@ -3038,8 +3038,8 @@ RectTransform:
   - {fileID: 1956101093}
   - {fileID: 1690531895}
   - {fileID: 711103443}
-  - {fileID: 1637788744}
   - {fileID: 2086357313}
+  - {fileID: 1637788744}
   m_Father: {fileID: 1398432170}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
@@ -4066,7 +4066,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &487936819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4147,7 +4147,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &490882670
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5497,8 +5497,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 541, y: 322}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 549.5724, y: 344.83}
+  m_SizeDelta: {x: 1882.8042, y: 979.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &590878362
 GameObject:
@@ -7115,8 +7115,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 541, y: 322}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 536.7137, y: 344.83}
+  m_SizeDelta: {x: 1938.5977, y: 979.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &750862327
 GameObject:
@@ -7498,8 +7498,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 541, y: 322}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 541, y: 344.83}
+  m_SizeDelta: {x: 1920, y: 979.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &796154973
 GameObject:
@@ -9419,7 +9419,7 @@ GameObject:
   - component: {fileID: 1053174280}
   - component: {fileID: 1053174279}
   m_Layer: 5
-  m_Name: Confirm_Button_revised
+  m_Name: Confirm_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10088,7 +10088,7 @@ GameObject:
   - component: {fileID: 1179546117}
   - component: {fileID: 1179546116}
   m_Layer: 5
-  m_Name: Confirm_Button_revised
+  m_Name: Confirm_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10675,7 +10675,7 @@ GameObject:
   - component: {fileID: 1272927583}
   - component: {fileID: 1272927582}
   m_Layer: 5
-  m_Name: Confirm_Button_revised
+  m_Name: Confirm_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11196,8 +11196,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 541, y: 322}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 543.8574, y: 344.83}
+  m_SizeDelta: {x: 1907.6016, y: 979.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1343970580
 GameObject:
@@ -15563,7 +15563,7 @@ GameObject:
   - component: {fileID: 1856970790}
   - component: {fileID: 1856970789}
   m_Layer: 5
-  m_Name: Confirm_Button_revised
+  m_Name: Confirm_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15890,7 +15890,7 @@ GameObject:
   - component: {fileID: 1880037160}
   - component: {fileID: 1880037159}
   m_Layer: 5
-  m_Name: Confirm_Button_revised
+  m_Name: Confirm_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17406,8 +17406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 541, y: 322}
-  m_SizeDelta: {x: 1920, y: 1080}
+  m_AnchoredPosition: {x: 539.5713, y: 344.83}
+  m_SizeDelta: {x: 1926.1992, y: 979.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2005538643
 MonoBehaviour:
