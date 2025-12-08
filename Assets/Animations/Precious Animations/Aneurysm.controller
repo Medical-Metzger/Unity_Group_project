@@ -11,20 +11,20 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 2697519864624407952}
-    m_Position: {x: 80500, y: 7450, z: 0}
+    m_Position: {x: 80510, y: 7450, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4811323512294041463}
-    m_Position: {x: 80740, y: 7760, z: 0}
+    m_Position: {x: 80700, y: 7550, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4377027401982310220}
-    m_Position: {x: 80500, y: 7760, z: 0}
+    m_Position: {x: 80490, y: 7640, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 80310, y: 7750, z: 0}
-  m_EntryPosition: {x: 80520, y: 7940, z: 0}
+  m_EntryPosition: {x: 80650, y: 7750, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -4377027401982310220}
@@ -129,7 +129,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: TrStart
+  - m_Name: TrStartTrigger
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -143,6 +143,12 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   - m_Name: TrAneurysm
     m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: TrStart
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
