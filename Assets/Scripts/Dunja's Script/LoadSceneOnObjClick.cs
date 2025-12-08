@@ -25,31 +25,31 @@ public class LoadSceneOnObjClick : MonoBehaviour
                 //if player clicks on certain button (if ray hits specific collider), it loads the next scene by specific name
                 if (hit.collider.CompareTag("ClickableBt1")) //using unity's GameObject.CompareTag guidelines script https://docs.unity3d.com/2020.1/Documentation/ScriptReference/GameObject.CompareTag.html
                 {
-                    Debug.Log("ClickableBt1 clicked");
+                    //Debug.Log("ClickableBt1 clicked");
                     SceneManager.LoadScene("04_IntroToAnneurysm_PK"); 
                 }
 
                 if (hit.collider.CompareTag("ClickableBt2"))
                 {
-                    Debug.Log("ClickableBt2 clicked");
+                    //Debug.Log("ClickableBt2 clicked");
                     SceneManager.LoadScene("05_AortaTerminology_DR");
                 }
 
                 if (hit.collider.CompareTag("ClickableBt3"))
                 {
-                    Debug.Log("ClickableBt3 clicked");
+                    //Debug.Log("ClickableBt3 clicked");
                     SceneManager.LoadScene("06_TypesOfDissection_PK");
                 }
 
                 if (hit.collider.CompareTag("ClickableBt4"))
                 {
-                    Debug.Log("ClickableBt4 clicked");
+                    //Debug.Log("ClickableBt4 clicked");
                     SceneManager.LoadScene("07_Symptoms_PK");
                 }
 
                 if (hit.collider.CompareTag("ClickableDoor"))
                 {
-                    Debug.Log("ClickableDoor clicked");
+                    //Debug.Log("ClickableDoor clicked");
                     SceneManager.LoadScene("08_TransitionToQuiz_LH");
                 }
             }

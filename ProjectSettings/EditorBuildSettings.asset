@@ -5,27 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/00_GameManagerInitScene_DR.unity
+    guid: 4cd6903b203ef804dbaa4e8bb27694f5
   - enabled: 0
-    path: Assets/Scenes/01_MainMenu_LH.unity
-    guid: 05a784f39da68da4ca6a36422048e531
-  - enabled: 1
-    path: Assets/Scenes/02_GameInstructions_LH.unity
-    guid: f24172b4536e45b4c9f7de6631212b5a
-  - enabled: 1
     path: Assets/Scenes/03_CorridorScene_DR.unity
     guid: cea2699a0e63cfb44bdfb8cf2756ae54
   - enabled: 1
-    path: Assets/Scenes/04_IntroToAnneurysm_PK.unity
-    guid: 4acd5f33d68ea984588a835cafdd43e1
-  - enabled: 1
-    path: Assets/Scenes/08_TransitionToQuiz_LH.unity
-    guid: 79d6217992993114d894648508dafda8
-  - enabled: 1
+    path: Assets/Scenes/05_AortaTerminology_DR.unity
+    guid: c78fcf51da2602d4fb3ee2d299461df6
+  - enabled: 0
     path: Assets/Scenes/09_Quiz_LH.unity
     guid: af3647668badce243b957ef287790344
-  - enabled: 1
-    path: Assets/Scenes/10_Exit_Scene.unity
-    guid: d5f11f045e569fd4892e029dda357921
-  m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

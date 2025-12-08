@@ -27,7 +27,7 @@ public class MouseInputs : MonoBehaviour
         //KerriCustomMouseMethod();
     }
 
-    void OnMouseEnter() //this is a method that is part of Unity's Libraries/Monobehaviour
+    void OnMouseDown() //this is a method that is part of Unity's Libraries/Monobehaviour
     {
         Debug.Log("LeftMouse Button Clicked");
         //objToEnable.SetActive(true);

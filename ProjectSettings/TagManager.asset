@@ -9,6 +9,7 @@ TagManager:
   - ClickableBt3
   - ClickableBt4
   - ClickableDoor
+  - Heart
   layers:
   - Default
   - TransparentFX

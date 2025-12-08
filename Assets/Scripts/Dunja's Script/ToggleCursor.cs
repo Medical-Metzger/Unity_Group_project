@@ -13,7 +13,7 @@ public class ToggleCursor : MonoBehaviour
     {
         if (Input.GetKey("space")) //if player holds down space bar
         {
-            print("space key is held down");
+            //Debug.Log("space key is held down");
             Cursor.lockState = CursorLockMode.None; //the mouse won't be locked to the center
             Cursor.visible = true; //the cursor will be visible
         }
