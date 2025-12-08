@@ -14,9 +14,12 @@ public class ActivateObject_DissappearOtherObjectPK : MonoBehaviour
 
 
     void OnMouseDown() 
-    {
-        // If this object is not the currently active one
+    {//if there is an active object already &&
+        // this object is not the currently active one
         if (currentlyActive != null && currentlyActive != this)
+//&& = both conditions must be true for the whole statement to be true 
+
+
         {
             // Turn off the previously active object
             currentlyActive.isClicked = false;
@@ -42,6 +45,5 @@ public class ActivateObject_DissappearOtherObjectPK : MonoBehaviour
             {
                 targetObject.SetActive(isClicked); //turns targetobject on or off based on the isclicked variable 
             }
-
         }
     }

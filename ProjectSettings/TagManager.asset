@@ -9,6 +9,7 @@ TagManager:
   - ClickableBt3
   - ClickableBt4
   - ClickableDoor
+  - Capsule
   layers:
   - Default
   - TransparentFX
