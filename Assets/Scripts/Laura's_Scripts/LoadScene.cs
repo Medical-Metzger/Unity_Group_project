@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LoadScene : MonoBehaviour
-    {
-        //This script will load the next scene by name which can then be edited in the inspector inUnity
+{
+    //This script will load the next scene by name which can then be edited in the inspector inUnity
 
-        public void LoadSceneByName(string sceneName)
+    public void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
-    }
+}
 
