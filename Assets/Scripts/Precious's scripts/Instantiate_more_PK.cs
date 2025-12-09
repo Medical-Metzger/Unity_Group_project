@@ -9,7 +9,7 @@ public class instantiate_more_PK : MonoBehaviour
 
     private bool spawning = false;
     private Coroutine spawnRoutine; //stores reference to the coroutine 
-    private List<GameObject> spawnedClones = new List<GameObject>();
+    private static List<GameObject> spawnedClones = new List<GameObject>();
   // track clones made by this instance
 
     public void ToggleSpawn()

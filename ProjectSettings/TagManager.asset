@@ -10,6 +10,7 @@ TagManager:
   - ClickableBt4
   - ClickableDoor
   - Heart
+  - ClickNoise
   layers:
   - Default
   - TransparentFX
