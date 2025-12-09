@@ -57,7 +57,7 @@ public class instantiate_more_PK : MonoBehaviour
 //returns random point inside a sphere 
 //*0.2f multiply to make the clone slightly smaller
                 Vector3 randomDirection = (transform.forward + Random.insideUnitSphere * 0.2f);
-                rb.linearVelocity = randomDirection* 30f; 
+                rb.linearVelocity = randomDirection* 10f; 
             }//apply velocity 
 
             yield return new WaitForSeconds(0.4f / spawnRate);
