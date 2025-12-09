@@ -1522,7 +1522,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 1.6911736, z: 0, w: 42.2436}
+  m_margin: {x: -45.171448, y: 1.6911736, z: -84.84278, w: 37.160713}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2404,9 +2404,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'We wish to thank...
+  m_text: 'We would like to extend our heartfelt gratitude to Matthieu Poyade and
+    Kerri Thornton for their invaluable patience and assistance throughout the development
+    of this project. Their support and guidance helped us navigate challenges and
+    enhance our skills in Unity.
 
-'
+
+    We also thank the Glasgow School of Art for
+    providing us with the resources and environment necessary to bring our vision
+    to life. These contributions have been instrumental in the success of our final
+    project.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4218,7 +4225,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993802046}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 200.14653}
+  m_LocalPosition: {x: 0, y: 0, z: 200}
   m_LocalScale: {x: 0.89, y: 1.1595317, z: 1.9438047}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -4227,7 +4234,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.846685, y: -422}
+  m_AnchoredPosition: {x: 13, y: -422}
   m_SizeDelta: {x: 200, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993802048
