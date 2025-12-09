@@ -15,6 +15,7 @@ TagManager:
   - camera
   - heartttt
   - canvassss
+  - cube
   layers:
   - Default
   - TransparentFX
