@@ -7,6 +7,7 @@ using UnityEngine;
  * 
  * Modified by Matt on 29th Oct 2024
  * */
+ // Matt's week 7 script for Camera-Control/Mouse Camera Drag Orbit with zoom, used for our Heart Terminology scene enabling the player to pan around and zoom in on sections of the heart
  
 [AddComponentMenu("Camera-Control/Mouse Camera Drag Orbit with zoom")]
 

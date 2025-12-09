@@ -1,6 +1,10 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// This script was written by me using a mix of sources such as Matt's Week 4 raycasting videos and 
+// unity discussion forums https://discussions.unity.com/t/change-scenes-by-clicking-object/187785/2
+// https://www.reddit.com/r/Unity3D/comments/1dwpqts/comparetag_vs_incredible_performance_issue/ , I decided to use CompareTag to optimise my scene because it was already becoming slow
+// also used unity's Documentation to get a better understanding of vector3 and raycasting https://docs.unity3d.com/6000.2/Documentation/ScriptReference/Physics.Raycast.html 
 public class LoadSceneOnObjClick : MonoBehaviour
 {
     
@@ -20,13 +24,14 @@ public class LoadSceneOnObjClick : MonoBehaviour
 
             RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity)) //ray never stops, returns true when it hits an obj with a collider
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity)) //ray never stops, returns true when it hits an obj with a collider, 
+            // I tried to think how not to have an infinite raycast for more control but i was struggling
             {   
                 //if player clicks on certain button (if ray hits specific collider), it loads the next scene by specific name
                 if (hit.collider.CompareTag("ClickableBt1")) //using unity's GameObject.CompareTag guidelines script https://docs.unity3d.com/2020.1/Documentation/ScriptReference/GameObject.CompareTag.html
                 {
                     //Debug.Log("ClickableBt1 clicked");
-                    SceneManager.LoadScene("04_IntroToAnneurysm_PK"); 
+                    SceneManager.LoadScene("04_IntroToAnneurysm_PK"); // added debig logs to make sure my tags were being detected
                 }
 
                 if (hit.collider.CompareTag("ClickableBt2"))
