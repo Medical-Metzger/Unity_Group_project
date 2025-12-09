@@ -12968,7 +12968,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1290128323}
-  - component: {fileID: 1290128324}
   m_Layer: 7
   m_Name: tube sequence
   m_TagString: Untagged
@@ -12994,21 +12993,6 @@ Transform:
   - {fileID: 342226306}
   m_Father: {fileID: 1768734439}
   m_LocalEulerAnglesHint: {x: -50.999, y: 18.815, z: -9.279}
---- !u!114 &1290128324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1290128322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36779ebd461b8d940900552edb55c142, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 1520849250}
-  animationName: bursting_3D_PK
-  button: {fileID: 920115088}
 --- !u!1 &1291078705
 GameObject:
   m_ObjectHideFlags: 0
