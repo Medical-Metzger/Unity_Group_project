@@ -2114,14 +2114,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "The aorta is located in the chest, and it is the largest artery in the
     body. It begins at the heart and rises up before arching back down through the
-    chest and into the abdomen. \n\nThe aorta's main job is to carry oxygen-rich
-    blood from the heart and distribute it to the rest of the body. It starts from
-    the left ventricle of the heart and then travels upward (this part is called
-    the ascending aorta), arches (the aortic arch), and goes down through the chest
-    and into the abdomen (where it becomes the descending aorta).\r\n\r\nIt's important
-    to know where the aorta is and how it functions because problems with this artery,
-    such as blockages or aneurysms, can significantly affect blood flow throughout
-    the body. \n\n"
+    chest and into the abdomen. \n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4609,7 +4602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &487936819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10402,17 +10395,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1025353580}
-  m_LocalRotation: {x: -0, y: -0, z: 0.04492206, w: 0.99899054}
+  m_LocalRotation: {x: -0, y: -0, z: 0.72571224, w: 0.6879985}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.92, y: 0.92, z: 0.92}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1971088404}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5.149}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 93.056}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -708, y: -10}
-  m_SizeDelta: {x: 1956.7035, y: 1329.1575}
+  m_AnchoredPosition: {x: -500.96216, y: -155.4173}
+  m_SizeDelta: {x: 906.1744, y: 503.4869}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1025353582
 MonoBehaviour:
@@ -10434,7 +10427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 26f466a8e3e7b3f43b4a0e9a8d6c7d68, type: 3}
+  m_Texture: {fileID: 2800000, guid: 46f47c47ea9c08b4581683e5d548be50, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -12963,17 +12956,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379360881}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7052398, w: 0.7089689}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 880842189}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 89.698}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -256.8204, y: 102.46}
-  m_SizeDelta: {x: 1479.4591, y: 1021.7}
+  m_AnchoredPosition: {x: -533.78406, y: 133.77365}
+  m_SizeDelta: {x: 927.5331, y: 555.6016}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1379360883
 MonoBehaviour:
@@ -12995,7 +12988,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: 2834eabc22e35294ea5d5ac6bd8f4937, type: 3}
+  m_Texture: {fileID: 2800000, guid: f2e82fab742f08041a616205d4a0635c, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -18721,7 +18714,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1971088404
 RectTransform:
   m_ObjectHideFlags: 0
