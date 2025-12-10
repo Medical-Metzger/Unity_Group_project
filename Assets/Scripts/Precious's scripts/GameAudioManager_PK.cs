@@ -11,8 +11,8 @@ public class GameAudioManager_PK : MonoBehaviour
 
     public AudioClip Hallwayclip;
     public bool MusicOn = true;
-
-    public static GameAudioManager_PK instance; //ensures only 1game manager is being used in app
+    public static GameAudioManager_PK instance;
+    //static reference so all instances of the script communicate
     void Awake()
     {
         if (instance == null)
@@ -25,8 +25,8 @@ public class GameAudioManager_PK : MonoBehaviour
             //if there is an instance of game manager currently on destroy it
             //(might be a duplicate)
             Destroy(gameObject);
-            //return; // makes it stop and breaks the loop
-        }
+           
+        } 
     }
     private void Start()
     {
@@ -39,34 +39,24 @@ public class GameAudioManager_PK : MonoBehaviour
     public void TurnOffMusic()
     {
         if (MusicOn)
-        {//check 
+        {//check if bool is true
             musicSource.Stop();
             MusicOn = false;
-        }
+        }//reset the flag
 
-        //monitoring the clickstate 
+    }
 
-        //   public void PlaySFX(AudioClip clip)
-        //  {
-        //      SFXSource.PlayOneShot(clip);
-        //  }
-
-        // public void AddClickSoundToUI()
-        //  {//call the private gameobject 
-        //   clickButtons = GameObject.FindGameObjectsWithTag("ClickNoise");
-        //   foreach (GameObject obj in clickButtons)
-        //  {//ascessing each button in the array of buttens tagged ClickNoise 
-        //   Button UIbutton = obj.GetComponent<Button>();
-        //accessing the list of all UIbutton 
-        //  if (UIbutton != null)
-        //  {
-        //        UIbutton.onClick.AddListener(() => //onclick run this code
-        //button is listening for when 
-        //
-        //        {
-        //           SFXSource.PlayOneShot(SFXclip);
-        //     });
+    public void TurnONMusic()
+    {
+        if (!MusicOn)
+        {//check if bool is fake
+            musicSource.Play();
+            MusicOn = true;
+        }//reset the flag
 
     }
 
 }
+        
+    
+

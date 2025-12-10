@@ -9174,7 +9174,6 @@ GameObject:
   m_Component:
   - component: {fileID: 947862062}
   - component: {fileID: 947862065}
-  - component: {fileID: 947862064}
   - component: {fileID: 947862063}
   m_Layer: 0
   m_Name: Camera3
@@ -9242,14 +9241,6 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!81 &947862064
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947862061}
-  m_Enabled: 1
 --- !u!20 &947862065
 Camera:
   m_ObjectHideFlags: 0
