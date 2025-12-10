@@ -10328,9 +10328,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 360214350}
+      - m_Target: {fileID: 360214351}
         m_TargetAssemblyTypeName: ManageQuestion, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnConfirmClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10997,9 +10997,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 361981155}
+      - m_Target: {fileID: 361981156}
         m_TargetAssemblyTypeName: ManageQuestion, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnConfirmClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11854,9 +11854,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 390067149}
+      - m_Target: {fileID: 390067150}
         m_TargetAssemblyTypeName: ManageQuestion, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnConfirmClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -17316,7 +17316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1856970788
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17708,9 +17708,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 866572565}
+      - m_Target: {fileID: 866572566}
         m_TargetAssemblyTypeName: ManageQuestion, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: OnConfirmClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
