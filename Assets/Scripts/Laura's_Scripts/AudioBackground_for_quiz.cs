@@ -1,3 +1,7 @@
+/*The AudioBackground_for_quiz script plays a background music/audio track when the game (scene 09) starts. This ensures that the audio plays only once, as it checks whether the audio source 
+is already playing before calling the Play method*/
+
+
 using UnityEngine;
 using UnityEngine.UIElements;
 //the above line (using UnityEngine) imports the UnityEngine namespace, which includes essential classes and functions used in Unity, such as MonoBehaviour and AudioSource
