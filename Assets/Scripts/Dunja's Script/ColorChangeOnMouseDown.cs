@@ -18,7 +18,7 @@ public class ColorChangeOnMouseDown : MonoBehaviour
         myInitialColor = myRenderer.material.color;
 
         //CheckPlayerPrefs and change material accordingly
-        if (PlayerManager.Instance.CheckPlayerPrefs(gameObject) == 1)
+        if (CheckPlayerPrefs(gameObject) == 1)
         {
             //Debug.Log("Change material of " + gameObject.name);
             myRenderer.material.color = Color.red;
@@ -26,6 +26,18 @@ public class ColorChangeOnMouseDown : MonoBehaviour
         
     }
     
+    public int CheckPlayerPrefs(GameObject obj)
+    {
+        //Get from List
+        int index = buttonList.IndexOf(obj);
+        
+
+        //Change PlayerPrefs
+        int state = PlayerPrefs.GetInt("button" + index);
+        //Debug.Log("Get " + obj.name +" of index " + index + " has state  " + state);
+        return state;
+    }
+
     void OnMouseDown()
     {
         // changes the initial color of the object to red
