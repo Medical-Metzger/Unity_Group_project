@@ -4602,7 +4602,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &487936819
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5174,7 +5174,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &529258161
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8833,7 +8833,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &849719327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -16784,8 +16784,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 195, y: -53}
-  m_SizeDelta: {x: -1435.8497, y: -630.4783}
+  m_AnchoredPosition: {x: 227.6309, y: -86.88}
+  m_SizeDelta: {x: -1501.1116, y: -698.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1785470785
 MonoBehaviour:
@@ -19478,7 +19478,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2012210734
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19521,9 +19521,7 @@ MonoBehaviour:
   m_text: "Cerebral aneurysms often don\u2019t show any symptoms until they become
     larger or rupture. This is why regular medical check-ups and being aware of risk
     factors\u2014like high blood pressure, smoking, or a family history of aneurysms\u2014are
-    vital for maintaining brain health. \r\n\r\nYou're doing a great job with this
-    topic! Learning about cerebral aneurysms can help you understand how critical
-    blood flow is to brain function and overall health."
+    vital for good health."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
