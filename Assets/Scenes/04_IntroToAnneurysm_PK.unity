@@ -2018,7 +2018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObj1: {fileID: 335925267}
-  requiredClicks: 2
+  requiredClicks: 3
 --- !u!224 &270196946
 RectTransform:
   m_ObjectHideFlags: 0
