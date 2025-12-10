@@ -35,6 +35,9 @@ public class QuizManager : MonoBehaviour
     //This next private variable is serialized for visibility in the Inspector, stores a reference to the UI panel that displays results after the quiz finishes
     [SerializeField]
     private GameObject finalPanel;
+
+    [SerializeField]
+    private GameObject percentFinalPanel;
   
     //This next private variable holds a reference to a UI element used to display the user's score
     [SerializeField]
@@ -132,8 +135,10 @@ public class QuizManager : MonoBehaviour
             //Show the Score panel
             
             finalPanel.SetActive(true);
+            percentFinalPanel.SetActive(true);
 
             scoreIndicator.GetComponent<TextMeshProUGUI>().text = scoreIndicator.GetComponent<TextMeshProUGUI>().text + score;
+            percentageText.text = ((int)((float)score/(float)maxQuestionIndex*100.0f)).ToString() + "%";
 
 
             CheckScore();

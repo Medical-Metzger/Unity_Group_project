@@ -12996,12 +12996,13 @@ MonoBehaviour:
   - {fileID: 866572565}
   - {fileID: 361981155}
   finalPanel: {fileID: 1971797880}
+  percentFinalPanel: {fileID: 1785470783}
   scoreIndicator: {fileID: 174768576}
   passPanel: {fileID: 880842188}
   retryPanel: {fileID: 1971088403}
   score: 0
   correctAnswersNb: 0
-  totalQuestionsNb: 0
+  totalQuestionsNb: 3
   percentageText: {fileID: 849719328}
 --- !u!1 &1423213245
 GameObject:
