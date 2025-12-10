@@ -40,8 +40,6 @@ MonoBehaviour:
     m_path: Assets/Scenes/08_TransitionToQuiz_LH.unity
   - m_enabled: 1
     m_path: Assets/Scenes/09_Quiz_LH.unity
-  - m_enabled: 1
-    m_path: Assets/Scenes/10_Exit_Scene.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
